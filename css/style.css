@@ -1,0 +1,33 @@
+/* body {
+  background: #333;
+  color: #fff; } */
+
+.navbar {
+  opacity: 0.8; 
+  }
+
+.nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+}
+
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-image-1 {
+  background:url(../img/ttbcarousel.jpg); 
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background:url(../img/hcecarousel-lg.jpg);
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url(../img/contestcarousel.jpg);
+  background-size: cover;
+}

@@ -4,14 +4,88 @@
     <title>Steven Wilson Official</title>
     <meta charset = "utf-8"/>
     <meta name ="value"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+  <body id="home">
       <!--Navigation Bar-->
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <div class="container">
+          <button class="navbar-toggler" data-toggle= "collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a href="index.html" class="navbar-brand">Steven Wilson</a>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#home" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#news-head-section" class="nav-link">News</a>
+              </li>
+              <li class="nav-item">
+                <a href="#recos-head-section" class="nav-link">Recordings</a>
+              </li>
+              <li class="nav-item">
+                <a href="#videos-head-section" class="nav-link">Videos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
       <!--Carousel-->
+      <section id="showcase">
+        <div id="mycarousel" class="carousel slide" data-ride="carousel">
+          <ul class="carousel-indicators">
+            <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#mycarousel" data-slide-to="1" ></li>
+            <li data-target="#mycarousel" data-slide-to="2" ></li>
+          </ul>
 
+          <!--carousel slides-->
+          <div class="carousel-inner">
+            <div class="carousel-item carousel-image-1 active">
+              <div class="container">
+                <div class="carousel-caption d-none d-sm-block text-centre mb-5">
+                  <h1 class="display-4">To The bone Tour</h1>
+                  <a href="#" class="btn btn-light btn-md">Check the higlights</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item carousel-image-2">
+              <div class="container">
+                <div class="carousel-caption d-none d-sm-block text-centre mb-5">
+                  <h1 class="display-4">Hand.Cannot.Erase BTS now live</h1>
+                  <a href="#" class="btn btn-light btn-md">Check the BTS fun!</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item carousel-image-3">
+              <div class="container">
+                <div class="carousel-caption d-none d-sm-block text-centre mb-5">
+                  <h1 class="display-4">To The bone Mega Contest</h1>
+                  <a href="#" class="btn btn-light btn-md">Learn More</a>
+                </div>
+              </div>
+            </div>
+
+            <!--carousel control-->
+          </div>
+          <a href="#mycarousel" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a href="#mycarousel" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </section>
       <!--Info Section-->
       <div id="recocarousel"></div>
       <div id="social"></div>
