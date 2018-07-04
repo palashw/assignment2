@@ -31,6 +31,7 @@
 .carousel-image-3 {
   background: url(../img/contestcarousel.jpg);
   background-size: cover;
+  background-attachment: fixed;
 }
 
 /* RecoCarousel */
@@ -59,11 +60,6 @@
   background-size: cover;
 }
 
-#social {
-  background:url(../img/logo.png) no-repeat;
-  background-size: cover;
-}
-
 #signup {
   background: url(../img/absentia.jpg);
   background-size: cover;
@@ -72,17 +68,27 @@
 #home-icons {
   background: url(../img/milkyway.jpg);
   background-size: cover;
+  position: static;
+}
+
+#social h1 a {
+  text-decoration: none;
+  color: white;
+}
+#social h1 a:Hover {
+  text-decoration: none;
+  color: rgb(255, 255, 0);
 }
 
 /* Video section */
 
 #video-play {
   position: static;
-  min-height: 200px;
+  height: 250px;
   background: url(../img/links.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: 0 100px;
+  background-position: 0 50px;
   text-align: center;
   color: white;
 
@@ -90,4 +96,26 @@
 
 #videoplay a {
   color: white;
+}
+
+/* Gallery */
+
+#gallery {
+  background: url(../img/gallerybg.jpg);
+  position: static;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  color: white;
+} 
+
+/* Newsletter */
+
+#newletter {
+  background:url(../img/news.jpg);
+  position: static;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  background-position: 0 250px;
 }

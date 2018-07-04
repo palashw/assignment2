@@ -5,13 +5,14 @@
     <meta charset = "utf-8"/>
     <meta name ="value"/>
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body id="home">
+  <body id="home mx-0">
       <!--Navigation Bar-->
       <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
         <div class="container">
@@ -52,8 +53,8 @@
             <div class="carousel-item carousel-image-1 active maincarousel">
               <div class="container">
                 <div class="carousel-caption d-none d-sm-block text-centre mb-5">
-                  <h1 class="display-4">To The bone Tour</h1>
-                  <a href="#" class="btn btn-light btn-md">Check the higlights</a>
+                  <h1 class="display-4">To The Bone Tour</h1>
+                  <a href="#" class="btn btn-light btn-md">Check the highlights</a>
                 </div>
               </div>
             </div>
@@ -70,7 +71,8 @@
             <div class="carousel-item carousel-image-3 maincarousel">
               <div class="container">
                 <div class="carousel-caption d-none d-sm-block text-centre mb-5">
-                  <h1 class="display-4">To The bone Mega Contest</h1>
+                  <h1 class="display-4">To The Bone Mega Contest</h1>
+                  <p class="display-5">Stand a chance to meet Steven</p>
                   <a href="#" class="btn btn-light btn-md">Learn More</a>
                 </div>
               </div>
@@ -105,7 +107,7 @@
                       <div class="carousel-item recocarousel-image-1 active recocarousel-item">
                         <div class="container">
                           <div class="carousel-caption d-none d-sm-block text-centre mb-5">
-                            <h3 class="display-5">To The Bone</h3>
+                            <h3 class="text-centre display-5">To The Bone</h3>
                           </div>
                         </div>
                       </div>
@@ -113,7 +115,7 @@
                       <div class="carousel-item recocarousel-image-2 recocarousel-item">
                         <div class="container">
                           <div class="carousel-caption d-none d-sm-block text-centre mb-5">
-                            <h3 class="display-5">Hand.Cannot.Erase</h3>
+                            <h3 class="text-centre display-5">Hand.Cannot.Erase</h3>
                           </div>
                         </div>
                       </div>
@@ -121,7 +123,7 @@
                       <div class="carousel-item recocarousel-image-3 recocarousel-item">
                         <div class="container">
                           <div class="carousel-caption d-none d-sm-block text-centre mb-5">
-                            <h3 class="display-5">Blackfield</h3>
+                            <h3 class="text-centre display-5">Blackfield</h3>
                           </div>
                         </div>
                       </div>
@@ -129,7 +131,7 @@
                       <div class="carousel-item recocarousel-image-4 recocarousel-item">
                         <div class="container">
                           <div class="carousel-caption d-none d-sm-block text-centre mb-5">
-                            <h3 class="display-5 my-2 pt-4">Check out all records!</h3>
+                            <h3 class="text-centre display-5 my-2 pt-4">Check out all records!</h3>
                             <a href="#" class="btn btn-light btn-md">Learn More</a>
                           </div>
                         </div>
@@ -145,8 +147,8 @@
                     </a>
                   </div>
             </div>
-            <div id="social" class="col-md-4 content-centre">
-              <p class="text-centre text-light my-auto mx-auto ">SW</p>
+            <div id="social" class="col-md-4 justify-content-centre">
+              <h1 class="text-centre display-4"><a href="#">New Album Out Now!</a></h1>
             </div>
             <div id="signup" class="col-md-4  text-centre">
               <h1 class="text-align-centre">Sign Up Now for latest Updates</h1>
@@ -185,7 +187,63 @@
       </div>
 
       <!--image gallery-->
+      <section id="gallery">
+        <div class="container mx-auto">
+          <h1 class="text-center">Photo Gallery</h1>
+          <p class="text-center">Check cool photos from our tours and albums</p>
+          <div class="row">
+            <div class="col-md-4">
+              <a href="#" data-gallery="img-gallery">
+                <img src="img/gallery1.jpeg" alt="" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="#" data-gallery="img-gallery">
+                <img src="img/gallery2.jpeg" alt="" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="#" data-gallery="img-gallery">
+                <img src="img/gallery3.jpeg" alt="" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="#" data-gallery="img-gallery">
+                <img src="img/gallery4.jpeg" alt="" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="#" data-gallery="img-gallery">
+                <img src="img/gallery5.jpeg" alt="" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="#" data-gallery="img-gallery">
+                <img src="img/gallery6.jpeg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+        </div>
 
+      </section>
+
+      <!--Newsletter-->
+      <section id="newletter" class="text-center pb-4 justify-content-centre">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center ">
+              <h1 class="text-center">Sign Up for our Newsletter</h1>
+              <p class="text-center">Daily chance to win a free concert ticket!</p>
+              <form action="" class="form-inline ">
+                <input type="text" class="form-control mb-2 mb-sm-0 col-4" placeholder="Enter name...">
+                <input type="email" class="col-4 form-control mb-2 mb-sm-0" placeholder="Enter email...">
+                <button class="btn btn-seondary col-4" type="submit">Let me in!!</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </section>
       <!--Footer-->
       <footer>
 
