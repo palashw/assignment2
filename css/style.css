@@ -3,7 +3,7 @@
   color: #fff; } */
 
 .navbar {
-  opacity: 0.8; 
+  opacity: 0.9; 
   }
 
 .nav-link {
@@ -13,7 +13,8 @@
   padding-right: 1em !important;
 }
 
-.carousel-item {
+/* Main Carousel */
+.maincarousel {
   height: 450px;
 }
 
@@ -30,4 +31,63 @@
 .carousel-image-3 {
   background: url(../img/contestcarousel.jpg);
   background-size: cover;
+}
+
+/* RecoCarousel */
+
+.recocarousel-item {
+  height: 200px;
+}
+
+.recocarousel-image-1 {
+  background:url(../img/to\ the\ bone.jpg); 
+  background-size: cover;
+}
+
+.recocarousel-image-2 {
+  background:url(../img/hce2.jpg); 
+  background-size: cover;
+}
+
+.recocarousel-image-3 {
+  background:url(../img/blackfield.jpg); 
+  background-size: cover;
+}
+
+.recocarousel-image-4 {
+  background:black; 
+  background-size: cover;
+}
+
+#social {
+  background:url(../img/logo.png) no-repeat;
+  background-size: cover;
+}
+
+#signup {
+  background: url(../img/absentia.jpg);
+  background-size: cover;
+}
+
+#home-icons {
+  background: url(../img/milkyway.jpg);
+  background-size: cover;
+}
+
+/* Video section */
+
+#video-play {
+  position: static;
+  min-height: 200px;
+  background: url(../img/links.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0 100px;
+  text-align: center;
+  color: white;
+
+}
+
+#videoplay a {
+  color: white;
 }

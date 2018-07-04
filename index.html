@@ -49,7 +49,7 @@
 
           <!--carousel slides-->
           <div class="carousel-inner">
-            <div class="carousel-item carousel-image-1 active">
+            <div class="carousel-item carousel-image-1 active maincarousel">
               <div class="container">
                 <div class="carousel-caption d-none d-sm-block text-centre mb-5">
                   <h1 class="display-4">To The bone Tour</h1>
@@ -58,7 +58,7 @@
               </div>
             </div>
 
-            <div class="carousel-item carousel-image-2">
+            <div class="carousel-item carousel-image-2 maincarousel">
               <div class="container">
                 <div class="carousel-caption d-none d-sm-block text-centre mb-5">
                   <h1 class="display-4">Hand.Cannot.Erase BTS now live</h1>
@@ -67,7 +67,7 @@
               </div>
             </div>
 
-            <div class="carousel-item carousel-image-3">
+            <div class="carousel-item carousel-image-3 maincarousel">
               <div class="container">
                 <div class="carousel-caption d-none d-sm-block text-centre mb-5">
                   <h1 class="display-4">To The bone Mega Contest</h1>
@@ -86,10 +86,102 @@
           </a>
         </div>
       </section>
+
       <!--Info Section-->
-      <div id="recocarousel"></div>
-      <div id="social"></div>
-      <div id="signup"></div>
+      <section id="home-icons" >
+        <div class="container">
+          <div class="row ">
+            <div id="recocarousel" class="col-md-4 text-centre">
+                <div id="myrecocarousel" class="carousel slide" data-ride="carousel">
+                    <ul class="carousel-indicators">
+                      <li data-target="#myrecocarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myrecocarousel" data-slide-to="1" ></li>
+                      <li data-target="#myrecocarousel" data-slide-to="2" ></li>
+                      <li data-target="#myrecocarousel" data-slide-to="3" ></li>
+                    </ul>
+          
+                    <!--recocarousel slides-->
+                    <div class="carousel-inner text-centre">
+                      <div class="carousel-item recocarousel-image-1 active recocarousel-item">
+                        <div class="container">
+                          <div class="carousel-caption d-none d-sm-block text-centre mb-5">
+                            <h3 class="display-5">To The Bone</h3>
+                          </div>
+                        </div>
+                      </div>
+          
+                      <div class="carousel-item recocarousel-image-2 recocarousel-item">
+                        <div class="container">
+                          <div class="carousel-caption d-none d-sm-block text-centre mb-5">
+                            <h3 class="display-5">Hand.Cannot.Erase</h3>
+                          </div>
+                        </div>
+                      </div>
+          
+                      <div class="carousel-item recocarousel-image-3 recocarousel-item">
+                        <div class="container">
+                          <div class="carousel-caption d-none d-sm-block text-centre mb-5">
+                            <h3 class="display-5">Blackfield</h3>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="carousel-item recocarousel-image-4 recocarousel-item">
+                        <div class="container">
+                          <div class="carousel-caption d-none d-sm-block text-centre mb-5">
+                            <h3 class="display-5 my-2 pt-4">Check out all records!</h3>
+                            <a href="#" class="btn btn-light btn-md">Learn More</a>
+                          </div>
+                        </div>
+                      </div>
+          
+                      <!--carousel control-->
+                    </div>
+                    <a href="#myrecocarousel" class="carousel-control-prev" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a href="#myrecocarousel" class="carousel-control-next" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </a>
+                  </div>
+            </div>
+            <div id="social" class="col-md-4 mx-auto">
+            </div>
+            <div id="signup" class="col-md-4  text-centre">
+              <h1 class="text-align-centre">Sign Up Now for latest Updates</h1>
+              <a href="#" class="btn btn-secondary btn-md">Signup</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Video Section-->
+      <section id="video-play">
+        <div class="dark-overlay">
+          <div class="row">
+            <div class="col">
+              <div class="container p-5">
+                <a href="#" 
+                class="video" 
+                data-video="https://www.youtube.com/embed/u4XevlloPY4"
+                data-toggle="modal"
+                data-target="#videomodal">
+                  <i class="fa fa-play"></i>
+                </a>
+                <h1>Video Playlist</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Video Modal-->
+      <div class="modal fade" id="videomodal">
+        <div class="modal-dialog modal-content modal-body">
+          <button class="close" data-dismiss="modal"><span>&times;</span></button>
+          <iframe src="" height="350" width="100%" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
 
       <!--image gallery-->
 
@@ -97,5 +189,7 @@
       <footer>
 
       </footer>
+
+      <script src="js/main.js"></script>
   </body>
 </html>
