@@ -154,9 +154,13 @@ body {
 
 #recos {
   margin-top: 70px;
-  background: url(../img/recobg.gif) no-repeat;
+  background: url(../img/recobg5.gif) no-repeat;
   color: white;
+  position: relative;
   background-size: cover;
+  background-attachment: fixed;
+  background-position: 0 -70px;
+  /* background-position: 0 -550px; */
 
 }
 
