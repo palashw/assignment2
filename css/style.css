@@ -124,7 +124,6 @@
 
 #newletter {
   background:url(../img/news.jpg);
-  height: 200px;;
   position: static;
   background-size: cover;
   background-attachment: fixed;
@@ -132,8 +131,9 @@
   background-position: 0 250px;
 }
 
+
+/* Footer */
 #mainfooter {
-  max-height: 100px;
   background: black;
 }
 
@@ -154,8 +154,9 @@ body {
 
 #recos {
   margin-top: 70px;
-  background: black;
+  background: url(../img/recobg.gif) no-repeat;
   color: white;
+  background-size: cover;
 
 }
 
@@ -165,7 +166,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   color: white;
-  background-position: 0 -90px;
+  background-position: 0 -150px;
 }
 
 #ttb {
@@ -174,6 +175,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   color: white;
+  
 }
 
 #hce {
@@ -200,7 +202,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   color: white;
-  background-position: 100px 300px;
+  background-position: 100px 100px;
 }
 
 #gfd {
@@ -218,3 +220,4 @@ body {
   background-attachment: fixed;
   color: white;
 }
+

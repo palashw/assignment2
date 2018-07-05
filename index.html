@@ -4,17 +4,20 @@
     <title>Steven Wilson Official</title>
     <meta charset = "utf-8"/>
     <meta name ="value"/>
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="vendor/font-awesome/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/style.css">
+
   </head>
-  <body id="home mx-0">
+  <body>
       <!--Navigation Bar-->
-      <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top">
         <div class="container">
           <button class="navbar-toggler" data-toggle= "collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -144,7 +147,7 @@
                         <div class="container">
                           <div class="carousel-caption d-none d-sm-block text-centre mb-5">
                             <h3 class="text-centre display-5 my-2 pt-4">Check out all records!</h3>
-                            <a href="#" class="btn btn-light btn-md">Learn More</a>
+                            <a href="recordings.html" class="btn btn-light btn-md">Learn More</a>
                           </div>
                         </div>
                       </div>
@@ -236,7 +239,7 @@
                 data-video="https://www.youtube.com/embed/u4XevlloPY4"
                 data-toggle="modal"
                 data-target="#videomodal">
-                  <i class="fa fa-play fa-lg"></i>
+                  <i class="fa fa-play fa-lg" style="font-size:40px;color:white"></i>
                 </a>
                 <h1>Video Playlist</h1>
               </div>
@@ -256,7 +259,7 @@
       <!--image gallery-->
       <section id="gallery">
         <div class="container mx-auto">
-          <h1 class="text-center">Photo Gallery</h1>
+          <h1 class="text-center p-4">Photo Gallery</h1>
           <p class="text-center">Check cool photos from our tours and albums</p>
           <div class="row m-auto">
             <div class="col-md-4 mb-4">
@@ -314,17 +317,16 @@
         <div class="container">
           <div class="row m-auto">
             <div class="col text-center ">
-              <h1 class="text-center">Sign Up for our Newsletter</h1>
-              <p class="text-center">Daily chance to win a free concert ticket!</p>
-              <form action="" class="form-inline ">
-                <input type="text" class="form-control mb-2 mb-sm-0 col-4" placeholder="Enter name...">
-                <input type="email" class="col-4 form-control mb-2 mb-sm-0" placeholder="Enter email...">
-                <button class="btn btn-seondary col-4" type="submit">Let me in!!</button>
+              <h1 class="text-center p-3">Sign Up for our Newsletter</h1>
+              <p class="text-center p-2">Daily chance to win a free concert ticket!</p>
+              <form action="" class="form-inline row m-auto">
+                <input type="text" class="form-control mb-2 mb-sm-0 col-sm-4" placeholder="Enter name...">
+                <input type="email" class="col-sm-4 form-control mb-2 mb-sm-0" placeholder="Enter email...">
+                <button class="btn btn-seondary col-sm-4" type="submit">Let me in!!</button>
               </form>
             </div>
           </div>
         </div>
-
       </section>
 
       <!--Footer-->
@@ -340,7 +342,10 @@
             <a href="#"><img src="img/yutubemono.png" alt="" class="img-fluid"></a>
           </div>
         </div>
-        <p class="m-0 text-light">&copy Steven Wilson Productions</p>
+        <div class="container row m-auto p-0 justify-content-center">
+          <img src="img/SW.png" alt="SW" class="m-4">
+        </div>
+        <p class="m-0 text-light">&copy Steven Wilson Productions 2017</p>
       </footer>
 
       <script src="js/main.js"></script>
