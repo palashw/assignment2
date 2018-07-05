@@ -14,6 +14,11 @@
   padding-right: 1em !important;
 }
 
+#resourcesdropdown {
+  background: black;
+  opacity: 1;
+}
+
 /* Main Carousel */
 .maincarousel {
   height: 450px;
@@ -135,4 +140,81 @@
 #mainfooter img {
   width: 50px;
   height: 50px;
+}
+
+/* --------------------------------- */
+/* Page 2 */
+
+body {
+  background: black;
+}
+#navbar {
+  background: black;
+}
+
+#recos {
+  margin-top: 70px;
+  background: black;
+  color: white;
+
+}
+
+#fourhalf {
+  background: url(../img/4halfbg.jpg);
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  background-position: 0 -90px;
+}
+
+#ttb {
+  background: url(../img/ttbbg2.jpg);
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+#hce {
+  background: url(../img/hcebg2.jpg);
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  background-position: 100px 0;
+}
+
+#raven {
+  background: url(../img/ravenbg.jpg);
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  background-position: 100px 0;
+}
+
+#blackfield {
+  background: url(../img/blackfieldbg.jpg);
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  background-position: 100px 300px;
+}
+
+#gfd {
+  background: url(../img/news.jpg);
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+#insurgents {
+  background: url(../img/insurgentsbg.jpg);
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
 }
